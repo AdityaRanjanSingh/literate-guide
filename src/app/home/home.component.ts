@@ -21,4 +21,7 @@ export class HomeComponent implements OnInit {
     }
 
   }
+  getProgreeBarWidth(book) {
+    return { width: `` }
+  }
 }

@@ -29,6 +29,9 @@
 .right-1rem{
     right: 1rem;
 }
+.bg-card{
+  background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% );
+}
 
   
   img {
@@ -39,7 +42,7 @@
   
   .card {
     position: relative;
-    background: #333;
+    // background: #333;
     border-radius: 6px;
     color: #aaa;
     box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
@@ -95,4 +98,8 @@
     0% { transform: translate(-.5rem, -.5rem) scale(1.05); opacity: 0; filter: blur(2px); }
     50% { opacity: 1; filter: blur(2px); }
     100% { transform: translateY(0) scale(1.0); opacity: 1; filter: blur(0); }
+  }
+
+  .progressbar-height{
+    height: 0.25rem;
   }
