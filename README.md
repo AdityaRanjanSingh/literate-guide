@@ -7,7 +7,7 @@ This app is hosted on gh-pages here
 https://adityaranjansingh.github.io/literate-guide/
 
 
-![alt text](https://raw.githubusercontent.com/AdityaRanjanSingh/literate-guide/master/src/Screenshot.jpg)
+![alt text](https://raw.githubusercontent.com/AdityaRanjanSingh/literate-guide/master/src/assets/Screenshot.jpg)
 
 
 ## Getting Started
