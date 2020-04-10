@@ -1,27 +1,85 @@
-# LiterateGuide
+# Literate Guide
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
+This project is build in angular 8 using the google's books api. more info [here](https://developers.google.com/books)
 
-## Development server
+This app is hosted on gh-pages here
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+https://adityaranjansingh.github.io/literate-guide/
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![alt text](https://raw.githubusercontent.com/AdityaRanjanSingh/literate-guide/master/src/Screenshot.jpg)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Getting Started
 
-## Running unit tests
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Prerequisites
 
-## Running end-to-end tests
+[Node](https://nodejs.org/en/download/)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+[Git](https://www.atlassian.com/git/tutorials/install-git)
 
-## Further help
+### Installing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get started with this project clone the repo using the git command
+
+```
+git clone https://github.com/AdityaRanjanSingh/literate-guide.git
+```
+Download all the dependencies using npm command
+
+```
+npm i
+```
+To run in dev environment
+
+```
+npm start
+```
+
+Project is hosted at http://localhost:4200
+
+## Running the tests
+
+The tests are covered using jasmine and karma.
+
+Run tests using this command
+```
+npm test
+```
+
+
+## Deployment
+
+This app is deployed on gh-pages
+
+Build the project
+
+```
+npm run build
+```
+
+Deploy the build to gh-pages using npm command
+
+```
+npm run deploy
+```
+
+## Built With
+
+* [Angular8](https://angular.io/) - The web framework used
+* NPM - Dependency Management
+
+
+## Authors
+
+* **Aditya Ranjan Singh** - *Initial work* 
+
+## License
+
+This project is licensed under the Apache-2 License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* App idea from [here](https://github.com/AdityaRanjanSingh/app-ideas/blob/master/Projects/2-Intermediate/Book-Finder-App.md)
